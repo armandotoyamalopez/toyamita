@@ -3,7 +3,11 @@ import Feed from '../components/Feed';
 import Sidebar from '../components/Sidebar';
 
 
-export default function Home() {
+
+export default function Home({ trendingResults, followResults, providers }) {
+  
+
+
   return (
     <div className="">
       <Head>
@@ -24,4 +28,3 @@ export default function Home() {
     </div>
   )
 }
-
